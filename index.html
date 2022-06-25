@@ -34,8 +34,8 @@
               </a>
             </li>
             <li class="nav__item">
-              <a href="#services" class="nav__link">
-                <i class="uil uil-briefcase-alt nav__icon"></i>Services
+              <a href="#education" class="nav__link">
+                <i class="uil uil-graduation-cap nav__icon"></i>Education
               </a>
             </li>
             <li class="nav__item">
@@ -52,6 +52,8 @@
           <i class="uil uil-times nav__close" id="nav-close"></i>
         </div>
         <div class="nav__btns">
+          <!-- Them change button-->
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
           <div class="nav__toggle" id="nav-toggle">
             <i class="uil uil-apps"></i>
           </div>
@@ -118,26 +120,208 @@
         <h2 class="section__title">About Me</h2>
         <span class="section__subtitle">My introduction</span>
         <div class="about__container container grid">
-          <img src="images/processing.png" alt="" class="about__img" />
+          <img src="images/content-creator.png" alt="" class="about__img" />
 
           <div class="about__data">
             <p class="about__description">
-              ull stack developer, with extensive knowledge, working in back-end and front-end, delivering quality work.
+              full stack developer, with extensive knowledge, working in
+              back-end and front-end, delivering quality work.
             </p>
             <div class="about__info">
               <div>
                 <span class="about__info-title">03+</span>
-                <span class="about__info-name">Project</span>
+                <span class="about__info-name">Completed<br />Project</span>
+              </div>
+              <div>
+                <span class="about__info-title">02+</span>
+                <span class="about__info-name">Month<br />Expirence</span>
               </div>
             </div>
-            <div class="about__buttons">
-              <a download="" href="Taif.HammadCV.pdf" class="button button--flex">
+            <div class="about__button">
+              <a
+                download=""
+                href="Taif.HammadCV.pdf"
+                class="button button--flex"
+              >
                 Download CV<i class="uil uil-download-alt button__icon"></i>
               </a>
             </div>
           </div>
         </div>
       </section>
+
+      <!--============================= SKILLS ================================-->
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <span class="section__subtitle">My technical level</span>
+
+        <div class="skills__container container grid"> 
+          <div>  
+
+            <!--============================= SKILLS 1 ================================-->
+            <div class="skills__content skills__open">
+              <div class="skills__header">
+                <i class="uil uil-brackets-curly skills__icon"></i>
+                <div>
+                  <h1 class="skills__title">Frontend Developer</h1>
+                  <span class="skills__subtitle"> HTML CSS JS<span>
+                </div>
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">HTML</h3>
+                    <span class="skills__number">85%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__html"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">CSS</h3>
+                    <span class="skills__number">75%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__css"></span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">JavaScript</h3>
+                    <span class="skills__number">40%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__js"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+           <!--============================= SKILLS 2 ================================-->
+           <div class="skills__content skills__close">
+            <div class="skills__header">
+              <i class="uil uil-server-network-alt skills__icon"></i>
+              <div>
+                <h1 class="skills__title">Backend Developer</h1>
+                <span class="skills__subtitle"> Python Java  Django<span>
+              </div>
+              <i class="uil uil-angle-down skills__arrow"></i>
+            </div>
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Python</h3>
+                  <span class="skills__number">70%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage skills__python"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Java</h3>
+                  <span class="skills__number">65%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage skills__java"></span>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Django</h3>
+                  <span class="skills__number">55%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage skills__django"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+      <!--============================= QUALIFICATION ================================-->
+      <section class="qualifiction section">
+        <h2 class="section__title">Qualification</h2>
+        <span class="section__subtitle">My personal journey</span>
+
+        <div class="qulification__containar container">
+          <div class="qualification__tabs">
+            <div class="qualification__button button--flex qualification__active" data-target="#education">
+              <i class="uil uil-graduation-cap qualification__icon"></i>
+              Education
+            </div>
+            <div class="qualification__button button--flex" data-target="#training">
+              <i class="uil uil-briefcase qualification__icon"></i>
+              Training
+            </div>
+          </div>
+
+          <div class="qualification__sections">
+      <!--============================= QUALIFICATION content 1 ================================-->
+           <div class="qualification__content qualification__active" data-content id="education">
+                <!--============================= QUALIFICATION 1 ================================-->
+                <div class="qualification__data">
+                  <div>
+                    <h3 class="qualification__title">Computer Scince</h3>
+                    <span class="qualification__subtitle">Al-Kharj - Prince Sattam Bin Abdulaziz University</span>
+                    <div class="qualification__calendar">
+                      <i class="uil uil-calendar-alt "></i>
+                      SEP 2017 - AUG 2021
+                    </div>
+                  </div>
+                  <div>
+                    <span class="qualification__rounder"></span>
+                    <span class="qualification__line"></span>
+                  </div>
+                </div>
+                <!--============================= QUALIFICATION 2 ================================-->
+                <div class="qualification__data">
+                  <div></div>
+                  <div>
+                    <span class="qualification__rounder"></span>
+                    <span class="qualification__line"></span>
+                  </div>
+
+                  <div>
+                    <h3 class="qualification__title">DevOps Engineer</h3>
+                    <span class="qualification__subtitle">online - Simplilearn</span>
+                    <div class="qualification__calendar">
+                      <i class="uil uil-calendar-alt "></i>
+                      MAY 2021 - OCT 2021
+                    </div>
+                  </div>
+                </div>
+
+
+            </div>
+            <!--============================= QUALIFICATION content 2 ================================-->
+            <div class="qualification__content" data-content id="training">
+              <!--============================= QUALIFICATION 1 ================================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title"> Full Stack Develpoer</h3>
+                  <span class="qualification__subtitle">Riyadh - Tuwaiq Academy</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt "></i>
+                    APR 2022 - present
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
     </main>
     <script src="main.js"></script>
   </body>
