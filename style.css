@@ -146,7 +146,8 @@
     margin-bottom: 4rem;
   }
   .header{
-    bottom: initial;
+   
+   top: -10;
   }
   .header,
   .main{
@@ -211,7 +212,7 @@
 
 } 
 
-@media screen and (min-width: 1024px ){
+/*@media screen and (min-width: 1024px ){
  
   .header,
   .main{
@@ -229,7 +230,7 @@
   .h-custom {
   height: 100vh !important;
   }
-  }
+  }*/
 /* ============================ Varibles Dark theme =================================*/
 body.dark-theme{
   

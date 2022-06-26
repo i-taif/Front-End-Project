@@ -61,7 +61,7 @@ tabs.forEach(tab =>{
           tab.classList.add('qualification__active')
         })
       })
-/* ==================== Dark theme ====================*/
+/* ==================== Dark theme ====================
 const themeButton=document.getElementById('theme-button')
 const darkTheme = 'dark-theme'
 const iconTheme = 'uil-sun'
@@ -82,11 +82,11 @@ themeButton.addEventListener('click',() => {
   themeButton.classList.toggle(iconTheme)
   localStorage.setItem('selected-theme',getCurrentTheme())
   localStorage.setItem('selected-icon',getCurrentTheme())
-})
+})*/
 
 
 
-/* ==================== Rigester ====================*
+/* ==================== Rigester ==================== 
 
 document.getElementById("new-signup").addEventListener("click", () => {
   document.getElementById("SingIn").style.display = "none";
@@ -146,7 +146,7 @@ document.getElementById("login-button").addEventListener("click", () => {
       alert("User not found");
     }
   }
-}); */
+});*/
 
 
 // Name and Password from the register-form
@@ -157,6 +157,7 @@ var pw = document.getElementById('pw');
 function store() {
     localStorage.setItem('name', nm.value);
     localStorage.setItem('pw', pw.value);
+   
 }
 
 // check if stored data from register-form is equal to entered data in the   login-form
